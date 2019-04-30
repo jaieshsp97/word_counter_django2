@@ -1,0 +1,19 @@
+<a href="{% url 'home' %}"> Home </a>
+
+<h1>
+
+    Number of words are
+
+    {{ answer }}
+
+
+</h1>
+
+<br>
+
+{% for x,y in dict %}
+<br>
+{{ x }}
+<br>
+{{ y }}
+{% endfor %}
